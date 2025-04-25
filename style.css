@@ -1,0 +1,136 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 320px; /* Mobile screen width */
+  background-color: black;
+  padding: 40px 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#insta-logo img {
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+#login-pasword input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: black;
+}
+
+#login {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#facebook-login {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: black;
+  color: #3897f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#facebook-login img {
+  width: 20px;
+  height: 20px;
+}
+
+#forget {
+  margin-top: 16;
+}
+#forget {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 6px 0;
+}
+
+button.forgot-btn:hover {
+  background-color: #ddd;
+}
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.or-divider::before {
+  margin-right: 10px;
+}
+
+.or-divider::after {
+  margin-left: 10px;
+}
+
+.or-divider span {
+  font-size: 12px;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+/* Existing styles assumed above... */
+
+/* Footer container */
+#footer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: styling for link look */
+#sign-up {
+  font-weight: bold;
+  color: #0095f6;
+  cursor: pointer;
+}
